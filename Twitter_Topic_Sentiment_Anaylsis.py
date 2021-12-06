@@ -1,3 +1,5 @@
+# Created by Amy Law
+
 # Install Libraries/Dependencies
 import numpy as np
 import pandas as pd
@@ -54,6 +56,7 @@ class Streamer():
         # Filter Twitter Streams to Capture Data
         stream.filter(track=hashtags)
 
+# Created by Amy Law
 
 # Twitter Stream Listener
 class Listener(StreamListener):
@@ -128,3 +131,5 @@ if __name__ == '__main__':
 
     # Amount of Tweets to be Analysed & Displayed
     print(dataFrame.head(10))
+    
+# Created by Amy Law
